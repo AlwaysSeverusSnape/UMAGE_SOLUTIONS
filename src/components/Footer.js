@@ -30,18 +30,23 @@ const Footer = () => {
         {/* Divider */}
         <div className="border-t border-gray-600 my-8"></div>
 
-        {/* Main Footer Content */}
-        <div className="flex flex-col md:flex-row items-center text-center">
-  {/* Company Information */}
-  <div className="mb-8 md:mb-0">
-    <img src={Logo} alt="Logo" className="h-12 mb-4 mx-auto" />
-    <p className="text-gray-300">
-      Umage Solution is a leading consulting and outsourcing company that specializes in procurement outsourcing and project implementation services.
-    </p>
-    <br />
-    <p className="text-gray-300">Fuel your projects with exceptional IT talent. Choose Umage.</p>
+       {/* Main Footer Content */}
+<div className="flex items-center justify-center h-[40vh]">
+  {/* Inner Container for Centered Content */}
+  <div className="text-center">
+    {/* Company Information */}
+    <div className="mb-8 md:mb-0">
+      <img src={Logo} alt="Logo" className="h-12 mb-4 mx-auto" />
+      <p className="text-gray-300">
+        Umage Solution is a leading consulting and outsourcing company that specializes in procurement outsourcing and project implementation services.
+      </p>
+      <br />
+      <p className="text-gray-300">Fuel your projects with exceptional IT talent. Choose Umage.</p>
+    </div>
   </div>
 </div>
+
+
 
 
 
