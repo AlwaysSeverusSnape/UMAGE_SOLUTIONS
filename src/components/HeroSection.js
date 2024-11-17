@@ -2,7 +2,9 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-black text-white h-screen flex items-center justify-center">
+    <section
+         style={{backgroundImage: "url(/UmImage.png)", backgroundRepeat: "no-repeat", backgroundSize:"cover",backgroundPosition:"center"}} 
+        className="relative bg-black text-white h-screen flex items-center justify-center" >
       <div className="absolute top-0 left-0 right-0 bg-gradient-to-b from-gray-900 to-transparent h-full"></div>
       <div className="z-10 text-center">
         <h1 className="text-5xl font-bold mb-6">Expert Consultancy</h1>

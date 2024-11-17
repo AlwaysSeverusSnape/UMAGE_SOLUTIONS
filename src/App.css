@@ -39,20 +39,6 @@
 
 
 
-/* styles.css */
-body {
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.dark-theme {
-  background-color: #121212;
-  color: #ffffff;
-}
-
-.light-theme {
-  background-color: #f0f0f0;
-  color: #333333;
-}
 
 
 

@@ -42,16 +42,28 @@ export const ContactUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-2xl font-semibold text-white mb-4">Get in Touch</h3>
-            <p className="mb-4 text-gray-300">We are dedicated to helping you discover the best IT solutions and opportunities. Whether you’re a client seeking expert IT services or a consultant looking to join our network, we’re just a message away. Please fill out the form below, and our team will respond to you promptly.</p>
+            <p className="mb-4 text-gray-300">We are dedicated to helping you discover the best IT solutions and opportunities. Whether you’re a client seeking expert IT services or a consultant looking to join our network, we’re just a message away. Kindly fill out the form, and our team will respond to you promptly.</p>
+            
+            <h3 className="text-2xl font-semibold text-white mb-4">Advance your Freelancing career with Umage</h3>
+            <p className="mb-4 text-gray-300">Join a network of top IT professionals, connecting you to impactful global projects. Choose your path, grow your skills, and achieve new milestones with our support. Send your resume to the Email address provided below.</p>
+            
+            <div className="flex items-center mb-4 text-gray-300"><strong>Email:</strong>&nbsp;
+                hr@umagesolutions.com
+              
+            </div>
+            
             
             <p className="mb-2 text-gray-300"><strong>Phone:</strong> +91 62602-68357</p>
-            
+
+           
+
             {/* LinkedIn link with icon */}
             <div className="flex items-center mb-4 text-gray-300">
               <FaLinkedin className="mr-2 text-blue-500" /> {/* LinkedIn icon with color */}
               <a href="https://www.linkedin.com/company/umage-solutions/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
                 LinkedIn
               </a>
+              
             </div>
           </div>
 
